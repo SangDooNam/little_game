@@ -140,8 +140,14 @@ elif initializing == 'yes':
                             if riddle == 'echo'.strip().lower():
                                 
                                 
-                                print("You've done it. Here,a parchment Scroll, jeweled Dagger,\n golden Coins, mystic Gemstone ,aged Wine, an old Book,\n a Small Box, magic Lantern, pocket watch, and mariner's compass all belong to you.")
+                                print("You've done it. Here,a parchment Scroll, jeweled Dagger,")
+                                print("golden Coins, mystic Gemstone ,aged Wine, an old Book,")      
+                                print("a Small Box, magic Lantern, pocket watch, and mariner's compass all belong to you.")
                                 print("Good bye,", name)
                             
                             else:
                                 print("I'm sorry, but you failed. This treasure should belong to me now. Bye !")
+                        
+                        if lastQuest == 'no':
+                            
+                            print('Ok, thanks for your help. Bye.')        
